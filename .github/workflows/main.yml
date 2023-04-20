@@ -2,7 +2,7 @@ name: Act-Demo workflow
 
 on: workflow_dispatch
 jobs:
-  read-spreadsheet:
+  read-pythonfile:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -11,7 +11,7 @@ jobs:
         uses: actions/setup-python@v2
       - name: Print values from python file
         run: |
-          pip install --upgrade 
+          pip install
           python Content.py > user_data.txt  
           cat user_data.txt
             
