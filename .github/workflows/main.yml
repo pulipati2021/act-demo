@@ -12,7 +12,7 @@ jobs:
       - name: Print values from python file
         run: |
           pip install --upgrade 
-          python verify_read.py > user_data.txt  
+          python Content.py > user_data.txt  
           cat user_data.txt
             
          
