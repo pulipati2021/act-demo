@@ -1,1 +1,1 @@
-Print("Hello Infomagnus")
+print("Hello Infomagnus ...WELCOME TO ACT DEMO")
