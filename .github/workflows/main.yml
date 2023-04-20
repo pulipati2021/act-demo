@@ -11,7 +11,7 @@ jobs:
         uses: actions/setup-python@v2
       - name: Print values from python file
         run: |
-          pip install --upgrade pip
+          pip install pip==23.1
           python Content.py > user_data.txt  
           cat user_data.txt
             
